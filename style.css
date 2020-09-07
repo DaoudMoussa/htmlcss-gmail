@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body{
+    background-image: url("wood_texture.jpg");
+    background-size: cover;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+header, nav, main, footer {
+    margin: 5px 0;
+}
+
+#logo {
+    width: 120px;
+
+}
+
+#title{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#SearchButton {
+    color: black;
+    padding: 0 3px;
+}
+
+.NewMails{
+    font-size: 22px;
+    margin: 5px;
+}
+
+.MailNumber{
+    display:inline-block;
+    width: 38px;
+    border-radius: 50%;
+    background-color: orange;
+    padding: 3px;
+    text-align: center;
+}
+
+.ReadMail{
+    padding:2px 5px;
+    background: lightgrey;
+    border:1px solid black;
+    border-radius: 3px;
+}
+
+.UnreadMail{
+    padding:2px 5px;
+    background: white;
+    border:1px solid black;
+    border-radius: 3px;
+
+}
+
+.MailSubject{
+    display:inline-block;
+    color: black;
+    width: 30%;
+}
+
+.MailBody{
+    display:inline-block;
+    color: grey;
+    width: 66%;
+}
+
+footer{
+    text-align: center;
+}
+
+h2{
+    display: inline-block;
+}
+
+hr{
+    margin-top: 5px;
+}
